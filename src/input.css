@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* My custom css */
+.menu-transition {
+    transition: transform 0.3s ease;
+}
+.menu-open {
+    transform: translateX(0);
+}
+.menu-closed {
+    transform: translateX(100%);
+}
+
+.glassmorphism {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    /* border-radius: 10px; */
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
+}
+.hero-bg {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+}
+
+#mobile-menu {
+    background-color: #0f0c29 !important;
+}
