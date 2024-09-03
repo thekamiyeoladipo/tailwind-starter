@@ -26,3 +26,15 @@
 #mobile-menu {
     background-color: #0f0c29 !important;
 }
+
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .animate-scroll {
+    display: flex;
+    animation: scroll 15s linear infinite;
+  }
+
